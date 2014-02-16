@@ -1,0 +1,20 @@
+Here list the tips to communicate Github with computers with ubutune system :
+
+1) clone files to computer
+   md subdirectory which is the same as that in Github
+   git clone http://github.....
+
+2) upload to github
+  git status
+git add .
+git commit -m "message"
+git push origin master
+
+
+
+How to run DigitalClone in Ubutune system
+
+1) goto subdirectory "PyCLPTractionGenerator" to run make
+2) python PyCLPTractionGenerator.py SUR01.ini
+
+touch * (to solve ;clock skew detected" warning when run make)
